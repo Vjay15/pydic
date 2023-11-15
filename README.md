@@ -14,7 +14,7 @@ After installing the above dependencies just do\
 ```git clone https://github.com/Vjay15/pydic.git```\
 Then move to the pydic directory where you need to make the python file scriptable\
 ```cd pydic```\
-```chmod a+x pydic.sh```\
+```chmod a+x pydic.sh```
 
 ## Usage:
 To use the dictionary, open the terminal and do\
