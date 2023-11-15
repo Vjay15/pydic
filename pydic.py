@@ -25,7 +25,7 @@ class GUI(QMainWindow):
             for row in R:
                 if row == []:
                     continue
-                elif b in row[0]:
+                elif b in row[0][0:len(b)]:
                     tex+=row[0]
                     tex+="\n"
             self.output.setText(tex)
