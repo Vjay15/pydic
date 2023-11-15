@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pydicwin</class>
+ <widget class="QWidget" name="Pydicwin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>286</width>
+    <height>286</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Comfortaa</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>PyDic</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
