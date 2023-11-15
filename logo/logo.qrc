@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>pydiclogo.png</file>
+    <file>pydiclogosmol.png</file>
+  </qresource>
+</RCC>
