@@ -12,7 +12,7 @@ pydic is a dictionary search tool made using python and uses csv files of words 
 To install the dependecies\
 ```pip install PyQt5 pathlib```
 
-## Installtaion:
+## Installation:
 After installing the above dependencies just do\
 ```git clone https://github.com/Vjay15/pydic.git```\
 Then move to the pydic directory where you need to make the python file scriptable\
