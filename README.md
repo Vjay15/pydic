@@ -5,7 +5,7 @@
 pydic is a dictionary search tool made using python and uses csv files of words from the dictionary as a databse. For the GUI it utilises PyQt. (Uses only a classic dictionary devoid of modern terms)
 
 ## Dependencies:
--> Linux (sorry windows users im too lazy :p)
+-> Linux (sorry windows users im too lazy :p)\
 -> pip\
 -> PyQt5\
 -> pathlib\
