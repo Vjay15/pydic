@@ -1,5 +1,8 @@
 # pydic - A very portable and efficient offline dictionary!
-pydic is a dictionary coded using python and uses csv files of words from the dictionary as a databse. For the GUI it utilises PyQt. (Uses only a classic dictionary devoid of modern terms)
+<div align="center">
+  <img width="600" src="Screenshot.png" alt="Screenshot">
+</div>
+pydic is a dictionary search tool made using python and uses csv files of words from the dictionary as a databse. For the GUI it utilises PyQt. (Uses only a classic dictionary devoid of modern terms)
 
 ## Dependencies:
 -> Linux (sorry windows users im too lazy :p)
