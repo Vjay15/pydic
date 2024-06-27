@@ -6,28 +6,30 @@ from pathlib import Path
 import logo_rc
 import csv
 
+
 class GUI(QMainWindow):
     def __init__(self):
-        super(GUI,self).__init__()
+        super(GUI, self).__init__()
         uic.loadUi("pydic.ui", self)
         self.show()
         self.Search.clicked.connect(self.search)
+
     def search(self):
         if self.stex.text().isalpha():
             b = self.stex.text() + " "
             root_folder = Path(__file__).parents[1]
-            s = "pydic/Dict/"+b[0].upper()+".csv" #To conserve memory
+            s = "pydic/Dict/" + b[0].upper() + ".csv"  # To conserve memory
             S = root_folder / s
-            A = open(S,"r")
-            R = csv.reader(A,delimiter=',')
+            A = open(S, "r")
+            R = csv.reader(A, delimiter=",")
             global tex
             tex = ""
             for row in R:
                 if row == []:
                     continue
-                elif b in row[0][0:len(b)]:
-                    tex+=row[0]
-                    tex+="\n"
+                elif b in row[0][0 : len(b)]:
+                    tex += row[0]
+                    tex += "\n"
             self.output.setText(tex)
         else:
             message = QMessageBox()
@@ -40,7 +42,8 @@ class GUI(QMainWindow):
             message.exec_()
         A.close()
 
-#Main function calls the Application
+
+# Main function calls the Application
 def main():
     app = QApplication([])
     window = GUI()
@@ -65,5 +68,6 @@ def main():
     app.setPalette(palette)
     app.exec_()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
